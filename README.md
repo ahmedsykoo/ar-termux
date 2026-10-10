@@ -16,11 +16,19 @@
 
 <div align="center">
 
-<img src="docs/images/claude-code-chat.png" width="46%" alt="Claude Code answering in Arabic inside AR Termux"> <img src="docs/images/opencode-summary.png" width="46%" alt="OpenCode summarizing a file in Arabic inside AR Termux">
+### Claude Code · كلود كود
+<img src="docs/images/claude-code-chat.png" width="720" alt="Claude Code answering in Arabic inside AR Termux">
 
-<img src="docs/images/claude-code-explain.png" width="50%" alt="Claude Code explaining package.json in Arabic, with a JSON code block"> <img src="docs/images/claude-code-skills.png" width="36%" alt="Claude Code listing skills in Arabic with a table, mixed Arabic and English">
+### OpenCode
+<img src="docs/images/opencode-summary.png" width="720" alt="OpenCode summarizing a file in Arabic inside AR Termux">
 
-<sub>Claude Code and OpenCode running inside AR Termux (Android 14). Arabic is connected and reads right-to-left; code stays left-to-right.<br>Screenshots are from a real device — see <a href="docs/LIMITATIONS.md">known limitations</a>.</sub>
+### شرح بالعربي مع كود · Arabic explanation with code
+<img src="docs/images/claude-code-explain.png" width="720" alt="Claude Code explaining package.json in Arabic, with a JSON code block">
+
+### قوائم وجداول · Lists and tables
+<img src="docs/images/claude-code-skills.png" width="720" alt="Claude Code listing skills in Arabic with a table, mixed Arabic and English">
+
+<sub>Real screenshots from a phone (Android 14). Arabic is connected and reads right-to-left; code stays left-to-right.<br>See <a href="docs/LIMITATIONS.md">known limitations</a>.</sub>
 
 </div>
 
