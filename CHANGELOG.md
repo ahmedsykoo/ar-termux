@@ -1,6 +1,7 @@
 # Changelog
 
-## Unreleased
+## v0.1.0-beta.1 — 2026-10-10
+First public beta. Based on Termux commit in `BASE_COMMIT`.
 - Shaped right-to-left runs (connected Arabic letters) instead of one glyph per cell.
 - Row-level right-to-left ordering for rows that start with RTL text (mixed Arabic/Latin reads naturally).
 - Neutral characters (spaces, punctuation) between RTL and LTR text follow the RTL base direction.
