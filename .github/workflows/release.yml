@@ -1,9 +1,15 @@
 name: Release
 
-# Push a tag like v0.1.0 to build the APKs and publish them (with SHA-256 sums) as a GitHub Release.
+# Push a tag like v0.1.0 (or run this workflow manually with a tag name) to build the APKs and publish them
+# with SHA-256 sums as a GitHub Release.
 on:
   push:
     tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag to create (e.g. v0.1.0-beta.1)'
+        required: true
 
 permissions:
   contents: write
@@ -26,15 +32,19 @@ jobs:
         working-directory: termux-app
         run: ./gradlew assembleDebug --no-daemon --stacktrace
       - name: Rename and checksum
+        env:
+          TAG: ${{ inputs.tag || github.ref_name }}
         run: |
           mkdir dist
           for f in termux-app/app/build/outputs/apk/debug/*.apk; do
             abi="${f##*_}"; abi="${abi%.apk}"
-            cp "$f" "dist/ar-termux_${GITHUB_REF_NAME}_${abi}.apk"
+            cp "$f" "dist/ar-termux_${TAG}_${abi}.apk"
           done
           (cd dist && sha256sum *.apk > SHA256SUMS.txt && cat SHA256SUMS.txt)
       - uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ inputs.tag || github.ref_name }}
+          target_commitish: ${{ github.sha }}
           files: dist/*
           generate_release_notes: true
-          prerelease: ${{ contains(github.ref_name, '-') }}
+          prerelease: ${{ contains(inputs.tag || github.ref_name, '-') }}
