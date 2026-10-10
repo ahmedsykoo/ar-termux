@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.1.0-beta.2 — 2026-10-10
+- Fixed release asset naming for the x86_64 build (was `..._64.apk`, now `..._x86_64.apk`). No code changes.
+
 ## v0.1.0-beta.1 — 2026-10-10
 First public beta. Based on Termux commit in `BASE_COMMIT`.
 - Shaped right-to-left runs (connected Arabic letters) instead of one glyph per cell.
