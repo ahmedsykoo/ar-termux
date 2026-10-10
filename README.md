@@ -14,6 +14,16 @@
 
 </div>
 
+<div align="center">
+
+<img src="docs/images/claude-code-chat.png" width="46%" alt="Claude Code answering in Arabic inside AR Termux"> <img src="docs/images/opencode-summary.png" width="46%" alt="OpenCode summarizing a file in Arabic inside AR Termux">
+
+<img src="docs/images/claude-code-explain.png" width="60%" alt="Claude Code explaining package.json in Arabic, with a JSON code block">
+
+<sub>Claude Code and OpenCode running inside AR Termux (Android 14). Arabic is connected and reads right-to-left; code stays left-to-right.<br>Screenshots are from a real device — see <a href="docs/LIMITATIONS.md">known limitations</a>.</sub>
+
+</div>
+
 ---
 
 ## العربية
