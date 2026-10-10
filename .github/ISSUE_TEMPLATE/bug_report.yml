@@ -1,0 +1,24 @@
+name: Bug report
+description: Arabic/RTL text looks wrong, or the app misbehaves
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Add a screenshot. Say what you expected (e.g. "words should read right-to-left").
+    validations: { required: true }
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: The exact command/program and text (e.g. `echo "اشرحلي ملف package.json"`, or running Claude Code / OpenCode).
+    validations: { required: true }
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+  - type: input
+    id: version
+    attributes:
+      label: AR Termux version (Release tag)
