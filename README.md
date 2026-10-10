@@ -57,6 +57,9 @@ AR Termux هو **Termux الأصلي بكل خصائصه** (`pkg`, الإضاف�
 ### الحالة
 **Beta.** اتجرّب على موبايل واحد (Android 14) مع bash وClaude Code وOpenCode. مرحبًا بتقاريرك على موبايلات تانية. شوف [القيود المعروفة](docs/LIMITATIONS.md).
 
+### المساهمة
+أي تعديل بيتفتح كـ Issue أو Pull Request، و**الفريق بيراجع ويقرر** يقبل ولا لأ، ومحدش بينشر إصدار غير الفريق. الإصدارات الرسمية هي اللي في [Releases](https://github.com/ahmedsykoo/ar-termux/releases) بس. التفاصيل في [GOVERNANCE.md](GOVERNANCE.md).
+
 ---
 
 ## English
@@ -88,8 +91,8 @@ scripts/test.sh     # layout unit tests (JDK only)
 scripts/build.sh    # clone Termux @ BASE_COMMIT, apply patches, build (JDK 17 + Android SDK/NDK)
 ```
 
-### Contributing · Security · License
-[CONTRIBUTING.md](CONTRIBUTING.md) · [SECURITY.md](SECURITY.md) (read the note about the signing key) · [GPL-3.0](LICENSE).
+### Contributing · Governance · Security · License
+[CONTRIBUTING.md](CONTRIBUTING.md) · [GOVERNANCE.md](GOVERNANCE.md) (maintainers approve every change; only Releases here are official) · [SECURITY.md](SECURITY.md) (read the note about the signing key) · [GPL-3.0](LICENSE).
 AR Termux is based on [termux/termux-app](https://github.com/termux/termux-app) (GPLv3 with Apache-2.0 parts from
 [Terminal Emulator for Android](https://github.com/jackpal/Android-Terminal-Emulator)). It is an unofficial fork and is
 not affiliated with or endorsed by the Termux project.

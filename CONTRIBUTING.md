@@ -1,5 +1,9 @@
 # Contributing
 
+**How changes get in:** open an Issue first (what's wrong, screenshot, device). You can send a Pull Request, but
+**maintainers review everything and decide** — a PR may be accepted, changed or declined, and only maintainers publish releases.
+See [GOVERNANCE.md](GOVERNANCE.md).
+
 AR Termux is **Termux plus one patch** to the terminal renderer. We do not fork Termux: `patches/` is applied to the
 exact upstream commit in `BASE_COMMIT`.
 
