@@ -1,14 +1,14 @@
 <div align="center">
 
-# AR Termux
+<img src="docs/images/banner.svg" alt="AR Termux — Termux with proper Arabic" width="100%">
 
 **Termux with proper Arabic (and Hebrew / Persian / Urdu) — connected letters, right direction, no reversed text.**
 
 **ترمكس بدعم عربي صحيح: حروف متصلة، واتجاه صحيح، من غير انعكاس أو تقطيع.**
 
-[![Build](https://github.com/ahmedsykoo/ar-termux/actions/workflows/build.yml/badge.svg)](https://github.com/ahmedsykoo/ar-termux/actions/workflows/build.yml)
-[![License: GPL v3](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)
-[![Release](https://img.shields.io/github/v/release/ahmedsykoo/ar-termux?include_prereleases)](https://github.com/ahmedsykoo/ar-termux/releases)
+[![Build](https://img.shields.io/github/actions/workflow/status/ahmedsykoo/ar-termux/build.yml?style=for-the-badge&logo=githubactions&logoColor=white&label=build)](https://github.com/ahmedsykoo/ar-termux/actions/workflows/build.yml)
+[![Release](https://img.shields.io/github/v/release/ahmedsykoo/ar-termux?include_prereleases&style=for-the-badge&logo=android&logoColor=white&color=3ddc97)](https://github.com/ahmedsykoo/ar-termux/releases)
+[![License: GPL v3](https://img.shields.io/badge/license-GPLv3-4cc9f0?style=for-the-badge)](LICENSE)
 
 [العربية](#العربية) · [English](#english)
 
