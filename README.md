@@ -106,3 +106,5 @@ AR Termux is based on [termux/termux-app](https://github.com/termux/termux-app) 
 not affiliated with or endorsed by the Termux project.
 
 If it helps you, a ⭐ makes it easier for other Arabic-speaking developers to find.
+
+<p align="center"><a href="https://github.com/ahmedsykoo"><img src="assets/footer.svg" alt="Built by Ahmed Ramadan Mahmoud" width="100%"></a></p>
